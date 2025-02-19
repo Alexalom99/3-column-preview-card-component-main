@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+/*------TAGS----*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lexend Deca", serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    margin: 0;
+    color: hsl(0, 0%, 100%, 0.75)
+    
+}
+
+h2 {
+    margin: 0;
+    font-family: "Big Shoulders Display", serif;
+    margin-top: 40px;
+}
+
+/*-----------TRIPTIC----------*/
+.triptic {
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*-------------ORANGE---------------*/
+
+.triptic__orange {
+    background-color: hsl(31, 77%, 52%);
+    padding: 60px 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-image: url(images/icon-sedans.svg);
+    background-repeat: no-repeat;
+    background-position: 40px 30px;
+}
+
+.triptic h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 34px;
+
+}
+
+.triptic__button {
+    background-color: white;
+    width: 70%;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+
+.triptic__orange a {
+    color: hsl(31, 77%, 52%);
+}
+
+
