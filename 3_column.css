@@ -31,6 +31,7 @@ h2 {
     margin: 40px 20px;
     display: flex;
     flex-direction: column;
+    max-width: 400px;
 }
 
 /*-------------ORANGE---------------*/
@@ -67,4 +68,35 @@ h2 {
     color: hsl(31, 77%, 52%);
 }
 
+.triptic__blue {
+    background-color: hsl(184, 100%, 22%);
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-image: url(images/icon-suvs.svg);
+    background-repeat: no-repeat;
+    background-position: 40px 30px;
+}
+
+.triptic__blue a {
+    color: hsl(184, 100%, 22%);
+}
+
+.triptic__green {
+    background-color: hsl(179, 100%, 13%);
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-image: url(images/icon-luxury.svg);
+    background-repeat: no-repeat;
+    background-position: 40px 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.triptic__green a {
+    color: hsl(179, 100%, 13%);
+}
 
