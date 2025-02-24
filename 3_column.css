@@ -7,6 +7,8 @@
 
 body {
     font-family: "Lexend Deca", serif;
+    margin: 0;
+    padding: 8px 0;
 }
 
 a {
@@ -28,10 +30,10 @@ h2 {
 
 /*-----------TRIPTIC----------*/
 .triptic {
-    margin: 40px 20px;
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 302px;
+    margin: 0 auto;
 }
 
 /*-------------ORANGE---------------*/
@@ -73,6 +75,7 @@ h2 {
     padding: 60px 40px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 30px;
     background-image: url(images/icon-suvs.svg);
     background-repeat: no-repeat;
@@ -100,3 +103,31 @@ h2 {
     color: hsl(179, 100%, 13%);
 }
 
+
+
+@media (min-width: 800px) {
+    .triptic {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* max-width: 75%; */
+        max-width: none;
+        height: 100vh;
+    }
+
+    .triptic__orange {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
+
+    .triptic__green {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .triptic>div {
+        flex: 0 0 400px;
+    }
+
+}
+    
